@@ -1,16 +1,11 @@
-# game_collection_app
+# Game Collection App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This Flutter project is a collection of classic games, reimagined for mobile devices. It currently includes Conway's Game of Life and a Sandbox simulation, offering users interactive and engaging experiences with simple yet captivating game mechanics.
 
-This project is a starting point for a Flutter application.
+### Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Conway's Game of Life**: Explore the beauty of cellular automata in this implementation of Conway's classic simulation. Watch patterns evolve, create your own configurations, and discover the endless possibilities within the game's simple rules.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Sandbox Simulation**: Unleash your creativity in a relaxing sandbox environment. Tap and hold to drop sand, creating mounds and landscapes in a bounded box. The simulation offers a meditative experience, allowing users to shape their sandbox world.
