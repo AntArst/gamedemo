@@ -1,0 +1,28 @@
+^C:\USERS\ANTHO\DOCUMENTS\REPO\DARTAPPUI\GAME_COLLECTION_APP\BUILD\WINDOWS\X64\CMAKEFILES\3CC312B6AFAAFB275DC457748ECB26BE\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\Antho\Documents\Repo\dartAppUI\game_collection_app FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Antho\Documents\Repo\dartAppUI\game_collection_app\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Antho\Documents\Repo\dartAppUI\game_collection_app FLUTTER_TARGET=C:\Users\Antho\Documents\Repo\dartAppUI\game_collection_app\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNDBlOTc2YmVkZmY1N2U2OWUxYjNkODlhN2MyYTNjNjE3YTAzZGFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Antho\Documents\Repo\dartAppUI\game_collection_app\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANTHO\DOCUMENTS\REPO\DARTAPPUI\GAME_COLLECTION_APP\BUILD\WINDOWS\X64\CMAKEFILES\D0D54763848BD30FB6760ED10B69E6F0\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANTHO\DOCUMENTS\REPO\DARTAPPUI\GAME_COLLECTION_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Antho/Documents/Repo/dartAppUI/game_collection_app/windows -BC:/Users/Antho/Documents/Repo/dartAppUI/game_collection_app/build/windows/x64 --check-stamp-file C:/Users/Antho/Documents/Repo/dartAppUI/game_collection_app/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
